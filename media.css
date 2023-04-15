@@ -1,0 +1,182 @@
+
+@media(min-width:320px){
+    .header__nav{
+        height:88px;
+    }
+    .content{
+        overflow:scroll;
+    }
+}
+@media(min-width:768px){
+    .header__nav{
+        width:768px;
+    }
+    .content{
+        padding:0;
+        margin:0;
+    }
+    .about__company_info{
+        margin-top:42px;
+        align-items:left;
+        font-size:14px;
+        line-height: 20px;
+        font-family: 'TT Lakes';
+        white-space: wrap;
+
+    }
+    .about__company_info::after{
+        padding-top:15px;
+        content:"Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера";
+        font-size:14px;
+        font-family: 'TT Lakes';
+        display:inline-block;
+    }
+    .menu__logo{
+        margin-right:auto;
+    }
+    .clearfix_second{
+        margin-left:10px;
+        margin-right:15x;
+    }
+    .menu:last-child{
+        margin-right:40px;
+    }
+    .logo{
+        order:2;
+    }
+    .clearfix{
+        order:-1;
+    }
+    .content__info{
+        margin-left:40px;
+    }
+    .content__info_item{
+        margin-right:25px;
+    }
+    .image{
+        max-width:auto;
+        height:auto;
+        margin-top:26px;
+        margin-bottom:25px;
+    }
+    .about__company_info{
+       font-size:14px;
+       line-height: 20px;
+       float:left;
+       width:340px;
+       height:160px;
+       letter-spacing: 0.2px;
+       margin-left:24px;
+       order:-1;
+    
+        
+    }
+   .about__company{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+   .about__company_logo{
+    max-width: auto;
+    max-height: auto;
+    order:0;
+    margin-top:14px;
+   }
+   ._container{
+    order:1;
+    display:flex;
+    margin-left:32px;
+    margin-top:-80px;
+    padding:0;
+   }
+
+}
+@media(min-width:1120px){
+    .menu{
+        height:0;
+    }
+    .wrapper{
+        max-width: 1120px;
+        max-height:535px;
+    }
+    .about__company_info{
+        width:490px;
+        height:160px;
+        font-size:14px;
+        line-height:20px;
+        letter-spacing: 0.2px;
+        margin-left:34px;
+        margin-right:36px;
+        margin-top:20px;
+    }
+    .content__info_item:last-child{
+        margin-top:22px;
+        margin-left:20px;
+        }
+    .content__info{
+        flex-wrap:wrap;
+
+        }
+    .about__company_logo{
+        width:531px;
+        height:383px;
+       
+    }
+    .image{
+        margin-top:5px;
+        border-radius:5%;
+        width: 100%;
+        max-height:100%;
+    }
+    .about__company_info::after{
+    padding-top:20px;
+    display:inline-block;
+    content:"Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким."
+    }
+    ._container{
+        margin-top:-17.5%;
+    }
+    .menu__repair{
+        position: absolute;
+        left: 70.74%;
+        right: 20.7%;
+        top: 0%;
+        bottom: 84.67%;
+        margin-right:15px;
+        display:block;
+    }
+    .menu__checkstatus{
+        position: absolute;
+        left: 87.74%;
+        right: 30.7%;
+        top: 0%;
+        bottom: 84.67%;
+        display:block;
+    }
+    .menu__repair::before{
+        content:"Оставить заявку";
+        display:block;
+        white-space:nowrap;
+        position: absolute;
+        height: 24px;
+        top:10%;
+        left: -150%;
+        right: 20.98%;
+        margin-left:-15px;
+        font-size:16px;
+        font-family: 'TT lakes';
+    }
+    .menu__repair::after{
+        display:block;
+        content:"Статус ремонта";
+        white-space:nowrap;
+        position: absolute;
+        height: 24px;
+        left: 75.16%;
+        right: 7.23%;
+        top:10%;
+        padding-right:15px;
+        font-size:16px;
+        font-family: 'TT Lakes';
+    }
+}
